@@ -1,9 +1,111 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test</title>
+        <title>Poesie</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="poetry_style.css">
     </head>
     <body>
-        Hi everybody!
+        <form>
+            <div>
+                Login:
+                <input name="name" type="text" placeholder="Name">
+                <input name="age" type="number" placeholder="Age">
+                <input name="password"  type="password" placeholder="Password">
+                <button>LOGIN</button>
+            </div>
+            <h1>LA SETTA DEI POETI ESTINTI</h1>
+            <div>
+                <br>
+                Scegli un'opzione: 
+                <input name="Titolo" type="radio">Cerca Titolo
+                <input name="Autore" type="radio">Cerca Autore
+            </div>
+            <div>
+                <br>
+                <input name="titolo" list="tit" placeholder="Titolo">
+                <datalist id="tit">
+                    <option value="All'Italia">
+                    <option value="Sopra il monumento di Dante">
+                    <option value="Ad Angelo Mai">
+                    <option value="Bruto minore">
+                    <option value="Ultimo canto di Saffo">
+                    <option value="Il passero solitario">
+                    <option value="L'infinito">
+                    <option value="La sera del dì di festa">
+                    <option value="Alla luna">
+                    <option value="A Silvia">
+                    <option value="Le ricordanze">
+                    <option value="Canto notturno di un pastore errante dell'Asia">
+                    <option value="La quiete dopo la tempesta">
+                    <option value="Il sabato del villaggio">
+                    <option value="A se stesso">
+                    <option value="Aspasia">
+                    <option value="La ginestra o il fiore del deserto">
+                    <option value="Imitazione">
+                </datalist>
+                <datalist id="aut">
+                    <option value="Leopardi Giacomo">
+                    <option value="Foscolo Ugo">
+                </datalist>
+            </div>
+        </form>
+        <div class="container">
+            <div class="column">
+                <h2 id="Leopardi">Giacomo Leopardi</h2>
+                <ul>
+                    <li>Epistolario</li>
+                    <li>Zibaldone</li>
+                    <li>Discorso sopra lo stato presente dei costumi degl'italiani</li>
+                    <li>Operette morali</li>
+                    <li>I Canti
+                        <ul>
+                            <li><a href="https://it.wikipedia.org/wiki/All%27Italia">All'Italia</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Sopra_il_monumento_di_Dante">Sopra il monumento di Dante</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Opere_di_Giacomo_Leopardi#Ad_Angelo_Mai">Ad Angelo Mai</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Bruto_minore">Bruto minore</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Ultimo_canto_di_Saffo">Ultimo canto di Saffo</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Il_passero_solitario">Il passero solitario</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/L%27infinito">L'infinito</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/La_sera_del_d%C3%AC_di_festa">La sera del dì di festa</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Alla_luna">Alla luna</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/A_Silvia">A Silvia</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Le_ricordanze">Le ricordanze</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Canto_notturno_di_un_pastore_errante_dell%27Asia">Canto notturno di un pastore errante dell'Asia</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/La_quiete_dopo_la_tempesta">La quiete dopo la tempesta</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Il_sabato_del_villaggio">Il sabato del villaggio</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/A_se_stesso">A se stesso</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Aspasia_(poesia)">Aspasia</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/La_ginestra">La ginestra o il fiore del deserto</a></li>
+                            <li><a href="https://it.wikipedia.org/wiki/Imitazione_(Giacomo_Leopardi)">Imitazione</a></li>
+                        </ul>
+                    </li>
+                    <li>Le ultime opere</li>
+                </ul>
+            </div>
+        
+            <div class="column">
+                <h2 id="Foscolo">Ugo Foscolo</h2>
+                <ul>
+                    <li>A Bonaparte liberatore</li>
+                    <li>A Luigia Pallavicini caduta da cavallo</li>
+                    <li>All'amica risanata</li>
+                    <li>Non son chi fui, perì di noi gran parte</li>
+                    <li>Che stai?</li>
+                    <li>Te nudrice alle Muse</li>
+                    <li>E tu ne' carmi avrai perenne vita</li>
+                    <li>Perché taccia il rumor di mia catena</li>
+                    <li>Così gl'interi giorni in lungo incerto</li>
+                    <li>Meritamente, però ch'io potei</li>
+                    <li>Solcata ho fronte</li>
+                    <li>Alla sera</li>
+                    <li>A Zacinto</li>
+                    <li>Alla Musa</li>
+                    <li>In morte del fratello Giovanni</li>
+                    <li>Dei sepolcri</li>
+                    <li>Le Grazie</li>
+                </ul> 
+            </div>
+        </div>
     </body>
 </html>
